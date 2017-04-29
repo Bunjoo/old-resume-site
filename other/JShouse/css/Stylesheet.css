@@ -1,0 +1,44 @@
+.puff {
+	position: absolute;
+	width: 0px;
+	height: 0px;
+}
+
+body{
+	text-align: center;
+	background: pink;
+}
+
+canvas{
+	background-color: #6699FF;
+}
+
+td{
+	text-align: left;
+}
+
+table{
+	background: rgba(255,255,255,0.7);
+	margin: auto;
+	
+}
+
+td:first-child{
+	font-weight: bold;
+	
+}
+
+.majorChallenges{
+	text-align:left;
+}
+
+ul { 
+	list-style: square;
+	display:table; 
+	margin:0 auto;
+}
+
+h1{
+	color: purple;
+}
+

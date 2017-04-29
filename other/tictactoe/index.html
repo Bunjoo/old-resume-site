@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<script src="javascript/jScript2.js"></script>
+<title>TicTacToe</title>
+<link rel="stylesheet" href="style/StyleSheet.css" />
+</head>
+<body onLoad = "start()">
+	<div class="container">
+		<audio autoplay loop>
+				<source src="audio/audio.mp3" type="audio/mp3"/>
+		</audio>
+		<p>Drag the rat and pig images into the tic-tac-toe board:</p>
+		
+		<div class= "playArea">
+			<div>
+				<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)" class="one" ></div>
+				<div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)" class="two" ></div>
+				<div id="div3" ondrop="drop(event)" ondragover="allowDrop(event)" class="three" ></div>
+			</div>
+			<div class= "newRow">
+				<div id="div4" ondrop="drop(event)" ondragover="allowDrop(event)" class="four" ></div>
+				<div id="div5" ondrop="drop(event)" ondragover="allowDrop(event)" class="five" ></div>
+				<div id="div6" ondrop="drop(event)" ondragover="allowDrop(event)" class="six" ></div>
+			</div>
+			<div class = "newRow">
+				<div id="div7" ondrop="drop(event)" ondragover="allowDrop(event)" class="seven" ></div>
+				<div id="div8" ondrop="drop(event)" ondragover="allowDrop(event)" class="eught" ></div>
+				<div id="div9" ondrop="drop(event)" ondragover="allowDrop(event)" class="nine" ></div>
+			</div>
+		</div>
+	</div>
+	<div class="piktor">
+	<img id="X" src="images/rat.png"
+		ondragstart="drag(event)" width="75" height="75" />	
+	<img id="O" src="images/pig.png" 
+		ondragstart="drag(event)" width="75" height="75" />
+	</div>
+	
+	<div>
+		<p style="color: red;"> *The background art, play pieces sprites, and audio belongs to the rightful owner and creator of the content. <br/>Please contact me if there is a problem.</p>
+	</div>
+</body>
+</html>
